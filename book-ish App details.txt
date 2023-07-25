@@ -1,0 +1,17 @@
+book-ish App   the app for geeky readers
+
+v1  Static Landing Page 
+create landing page: 
+	Header
+	Navbar
+	body w/ form 
+	footer
+Create Form 
+	takes in:
+	book name
+	Author
+	date read
+ 
+V2  
+Create Display list of books that have been read 
+
