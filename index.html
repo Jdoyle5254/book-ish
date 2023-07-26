@@ -17,25 +17,31 @@
     date read 
     -->
     <form>
-        <label for="title">Title</label><br>
-        <input type="text" id="titel" name="title"><br>
-        <label for="author">Author</label><br>
-        <input type="text" id="author" name="author">
+        <div>
+            <label for="title">Title</label><br>
+            <input type="text" id="title" name="title"><br>
+        </div>
+        <div>
+            <label for="author">Author</label><br>
+            <input type="text" id="author" name="author">
+        </div>
         <br>
-        <label for="dateread">Date Read </label><br>
-        <input type="date" id="dateread" name="dateread">
-        <br>
-        <br>
+        <div>
+            <label for="dateread">Date Read </label><br>
+            <input type="date" id="dateread" name="dateread">
+         </div>  
+         <br>
+        <!-- need to add JS to grab the book and save the book -->
         <input type="submit" value="Add Book">
       </form>
 
       <section>
         <h2>My Book-ish List</h2>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Title: Emma, Author: Jane Austen, Date Read: Jan 1, 2023</li> 
+            <li>Title: Are you there God, It's me Margaret, Author: Judy Blume, Date Read: Feb 1, 2023</li>
+            <li>Title: And Then There Were None, Author: Agatha Christie, Date Read: March 1, 2023</li>
+            <li>Title: Sister Stardust, Author: Jane Green, Date Read: April 1, 2023</li>
         </ul>
       </section>
 <footer>
